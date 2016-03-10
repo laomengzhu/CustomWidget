@@ -229,3 +229,5 @@ ta.recycle();
 
 ![preview_in_activity1](https://raw.githubusercontent.com/laomengzhu/CustomWidget/master/CombinationWidget/CoverImageView/images/last.jpg)
 
+代码：[https://github.com/laomengzhu/CustomWidget/tree/master/CombinationWidget/CoverImageView](https://github.com/laomengzhu/CustomWidget/tree/master/CombinationWidget/CoverImageView)
+
