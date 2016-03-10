@@ -101,7 +101,7 @@ public class CoverImageView extends FrameLayout {
 
 可以看到CoverImage下面的确还有一层FrameLayout，这一层FrameLayout是毫无用处的，这样的层级关系就会导致过度绘制问题（不懂的可以百度一下，这里就不赘述了），影响我们的控件性能。
 
-减少视图层级，我们可以使用<merge/>标签，它可以删减多余的层级，优化UI。我们把我们xml布局里面的FrameLayout换成merge，然后运行，看看视图层级关系。
+减少视图层级，我们可以使用merge标签，它可以删减多余的层级，优化UI。我们把我们xml布局里面的FrameLayout换成merge，然后运行，看看视图层级关系。
 
 ![preview_in_activity1](https://raw.githubusercontent.com/laomengzhu/CustomWidget/master/CombinationWidget/CoverImageView/images/new_layers.jpg)
 
